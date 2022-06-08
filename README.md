@@ -19,7 +19,7 @@ Those mutations/substitutons may also to some degree be part of this work -- att
 
 Very provisional description of methods; skeleton pipeline is thus far built out, but score functions, methods of calculating free energy, degree of involvement of sequence comparison TBD -- or rather, the degree to which we'll acquire orthoganal results from GROMACS or something will be evaluated in due time. For now focusing on generating large amounts of data from Rosetta.
 
-Most/all work will be run using AWS; this will hopefully spare my laptop from death by melting. So far (6 June 2022) I'm using one t3.2xlarge instance, running Ubuntu 20.04 and Pyrosetta 4, release 319, Python 3.9; may evolve to use more instances e.g. auto-scale groups/AWS Batch. 
+Most/all work will be run using AWS EC2, S3.
 
 This is a personal project... so uh, costs will very much be in mind and certainly reported at the end, along with whatever resources/network architecture are used. If generation of results is slow, I may use randomly generated data to train downstream models in the meantime. Just to have everything built out.
 
