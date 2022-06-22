@@ -15,6 +15,8 @@ This work will hopefully be of some use to protein engineering efforts; either b
 
 Those mutations/substitutons may also to some degree be part of this work -- attempting to reproduce wet lab results or modeling, retroactively predicting those results via computation.
 
+... The pockets could also be VERY conserved, in which case none of the separation, nor the regression/estimation would be possible (probably). In which case, it'll at least be an interesting technical exercise, dealing with macrocycle conformations/iron parameterization in docking, and uh, verify that it's perfectly appropriate to grab any hemoprotein for a study, at one's convenience. 
+
 # Methods
 
 Very provisional description of methods; skeleton pipeline is thus far built out, but score functions, methods of calculating free energy, degree of involvement of sequence comparison TBD -- or rather, the degree to which we'll acquire orthoganal results from GROMACS or something will be evaluated in due time. For now focusing on generating large amounts of data from Rosetta.
