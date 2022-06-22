@@ -1,0 +1,42 @@
+Jun-11 00:11:09.280 [main] DEBUG nextflow.cli.Launcher - $> nextflow run excelsior.nf
+Jun-11 00:11:09.346 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.04.3
+Jun-11 00:11:09.417 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Jun-11 00:11:09.433 [main] INFO  nextflow.cli.CmdRun - Launching `excelsior.nf` [drunk_becquerel] DSL2 - revision: 8678806da1
+Jun-11 00:11:09.444 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/ubuntu/.nextflow/plugins; core-plugins: nf-amazon@1.7.2,nf-azure@0.13.2,nf-console@1.0.3,nf-ga4gh@1.0.3,nf-google@1.1.4,nf-sqldb@0.4.0,nf-tower@1.4.0
+Jun-11 00:11:09.445 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jun-11 00:11:09.453 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jun-11 00:11:09.454 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jun-11 00:11:09.456 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jun-11 00:11:09.464 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jun-11 00:11:09.505 [main] DEBUG nextflow.Session - Session uuid: ebec9448-3934-4608-8ecc-8f19a4af1811
+Jun-11 00:11:09.506 [main] DEBUG nextflow.Session - Run name: drunk_becquerel
+Jun-11 00:11:09.507 [main] DEBUG nextflow.Session - Executor pool size: 8
+Jun-11 00:11:09.532 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.04.3 build 5703
+  Created: 18-05-2022 19:22 UTC 
+  System: Linux 5.15.0-1011-aws
+  Runtime: Groovy 3.0.10 on OpenJDK 64-Bit Server VM 18-ea+36-Ubuntu-1
+  Encoding: UTF-8 (UTF-8)
+  Process: 39246@ip-172-31-18-117 [172.31.18.117]
+  CPUs: 8 - Mem: 15.1 GB (239.7 MB) - Swap: 0 (0)
+Jun-11 00:11:09.551 [main] DEBUG nextflow.Session - Work-dir: /home/ubuntu/project/work [ext2/ext3]
+Jun-11 00:11:09.551 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/ubuntu/project/bin
+Jun-11 00:11:09.557 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jun-11 00:11:09.566 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jun-11 00:11:09.582 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jun-11 00:11:09.590 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Jun-11 00:11:09.646 [main] DEBUG nextflow.Session - Session start invoked
+Jun-11 00:11:10.075 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jun-11 00:11:10.087 [main] INFO  nextflow.script.BaseScript - ROHAN RIDES TO GONDOR'S AID!
+Jun-11 00:11:10.141 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: hemePrep
+Jun-11 00:11:10.141 [main] DEBUG nextflow.Session - Ignite dataflow network (1)
+Jun-11 00:11:10.145 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Jun-11 00:11:10.145 [main] DEBUG nextflow.Session - Session await
+Jun-11 00:11:10.145 [main] DEBUG nextflow.Session - Session await > all process finished
+Jun-11 00:11:10.146 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jun-11 00:11:10.147 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: ~/project/pdb_src/; pattern: *.pdb; options: [:]
+Jun-11 00:11:10.163 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - No such file: ~/project/pdb_src/ -- Skipping visit
+Jun-11 00:11:10.166 [main] INFO  nextflow.Nextflow - Done!
+Jun-11 00:11:10.169 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Jun-11 00:11:10.259 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jun-11 00:11:10.275 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
