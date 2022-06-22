@@ -1,7 +1,5 @@
 # heme_docking
 
-(Current as of 6 June 2022. This readme hopefully gives a good idea of what I intend to do, as well as inform my future self about the intended scope and direction of the project.)
-
 Assessing the distribution of binding affinities/energies of HEM in hemoprotein pockets. Follow up to thesis work. This is a provisional description and citations/descriptions of methodology will be provided or updated as the work progresses!
 
 The results of my thesis work (available here: https://github.com/patimus-prime/heme-binding) demonstrated the binding pockets of heme are mostly, but not completely, nonpolar; polar residues are still present, required to coordinate with the iron atom and propionate residues of heme.
