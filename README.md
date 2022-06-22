@@ -1,4 +1,4 @@
-# hem_docking
+# heme_docking
 
 (Current as of 6 June 2022. This readme hopefully gives a good idea of what I intend to do, as well as inform my future self about the intended scope and direction of the project.)
 
